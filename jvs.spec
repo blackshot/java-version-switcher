@@ -3,7 +3,7 @@
 block_cipher = None
 
 
-a = Analysis(['main.py'],
+a = Analysis(['jvs.py'],
              pathex=['C:\\Users\\me\\Desktop\\javav'],
              binaries=[],
              datas=[],
@@ -25,7 +25,7 @@ exe = EXE(pyz,
           a.zipfiles,
           a.datas,  
           [],
-          name='main',
+          name='jvs',
           debug=False,
           bootloader_ignore_signals=False,
           strip=False,
