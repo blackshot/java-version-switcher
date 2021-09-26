@@ -3,6 +3,7 @@ This cli lets you change your current JAVA_HOME environment variable.
 
 ```echo
 Usage: jvs.exe <version>
+Example: jvs.exe 11
 ```
 > **IMPORTANT:** Be sure your config.ini contains all paths referencing all your jdk/jre
 
